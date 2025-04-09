@@ -6,6 +6,7 @@ USER root
 # Set working directory
 WORKDIR /app
 
+
 CMD ["/bin/bash"]
 # Create and activate the RNA-seq environment 
 # Use proper channel priority to avoid conflicts
